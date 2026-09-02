@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ded Ses — Network Engineer &amp; IT Lecturer</title>
+<meta name="description" content="Portfolio of Ded Ses — Network Engineer and IT Lecturer. Networking, IT support, teaching, design and photography." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a class="brand" href="#top" aria-label="Ded Ses — home">
+      <span class="brand-badge" aria-hidden="true">DS</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="nav-cta" href="resume.pdf" download>Résumé</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="mono-tag">$ whoami</p>
+        <h1>Ded Ses</h1>
+        <p class="hero-role">Network Engineer &amp; IT Lecturer</p>
+        <p class="hero-lede">
+          I design and maintain networks, teach the people who'll run tomorrow's, and spend the
+          rest of my time behind a camera or a design tool. Two years lecturing, five years in
+          IT support, and a Master's in Information Technology of Engineering in between.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:ses.ded@rupp.edu.kh">Email me</a>
+          <a class="btn btn-ghost" href="resume.pdf" download>Download résumé</a>
+        </div>
+      </div>
+      <div class="hero-graph" aria-hidden="true">
+        <canvas id="netCanvas"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-badge" aria-hidden="true">
+        <svg viewBox="0 0 120 104" width="120" height="104">
+          <polygon points="60,2 116,27 116,77 60,102 4,77 4,27" fill="none" stroke="#049CD1" stroke-width="2"/>
+          <text x="60" y="60" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="700" fill="#EAF2F8">DS</text>
+        </svg>
+      </div>
+      <div class="about-content">
+        <p class="mono-tag">01 — about</p>
+        <h2>Grounded in networks, drawn to how people learn them</h2>
+        <p>
+          I started in IT support, spent five years fixing what broke and asking why it broke,
+          then moved toward the infrastructure side of the job: designing, configuring, and
+          keeping networks upright. Teaching came alongside it — two years as an IT lecturer,
+          translating the same troubleshooting instincts into something students can carry
+          out the door. Outside of networking gear, I still work as a graphic designer and
+          photographer, which keeps the visual, communication-first half of my brain in use.
+        </p>
+        <dl class="info-list">
+          <div><dt>role</dt><dd>Network Engineer / IT Lecturer</dd></div>
+          <div><dt>education</dt><dd>M.IT (Engineering)</dd></div>
+          <div><dt>teaching</dt><dd>2 years</dd></div>
+          <div><dt>it support</dt><dd>5 years</dd></div>
+          <div><dt>also</dt><dd>Graphic Design, Photography</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <p class="mono-tag">02 — skills</p>
+      <h2>What I work with</h2>
+      <div class="panels">
+        <div class="panel">
+          <h3><span class="dot" aria-hidden="true"></span>Networking &amp; Systems</h3>
+          <ul class="tag-list">
+            <li>Network Design &amp; Configuration</li>
+            <li>Troubleshooting &amp; Diagnostics</li>
+            <li>IT Infrastructure Support</li>
+            <li>Systems Administration</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3><span class="dot" aria-hidden="true"></span>IT Support &amp; Design</h3>
+          <ul class="tag-list">
+            <li>Office &amp; Digital Tools</li>
+            <li>Graphic Design</li>
+            <li>Photography</li>
+            <li>Applied AI Tools</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3><span class="dot" aria-hidden="true"></span>Teaching &amp; Collaboration</h3>
+          <ul class="tag-list">
+            <li>IT Lecturing</li>
+            <li>Curriculum &amp; Lab Delivery</li>
+            <li>Team Collaboration</li>
+            <li>Technical Communication</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="section-inner">
+      <p class="mono-tag">03 — experience</p>
+      <h2>Career so far</h2>
+      <ul class="track-list">
+        <li class="track-item">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <h3>Network Engineer &amp; IT Lecturer</h3>
+            <p class="track-meta">Current</p>
+            <p>Maintaining and configuring network infrastructure while teaching IT and
+              networking courses to the next generation of engineers.</p>
+          </div>
+        </li>
+        <li class="track-item">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <h3>IT Support</h3>
+            <p class="track-meta">5 years</p>
+            <p>Hands-on hardware, software, and network support — the foundation that
+              everything since has built on.</p>
+          </div>
+        </li>
+        <li class="track-item">
+          <span class="status-dot" aria-hidden="true"></span>
+          <div>
+            <h3>Graphic Designer &amp; Photographer</h3>
+            <p class="track-meta">Ongoing</p>
+            <p>Freelance and personal work in visual design and photography, alongside the
+              IT career.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-grid">
+      <div>
+        <p class="mono-tag">04 — contact</p>
+        <h2>Let's connect</h2>
+        <p>
+          Open to opportunities in networking, IT support, or teaching — and happy to talk
+          design or photography too. The fastest way to reach me is email.
+        </p>
+      </div>
+      <div class="contact-card">
+        <a class="btn btn-primary btn-large" href="mailto:ses.ded@rupp.edu.kh">
+          ses.ded@rupp.edu.kh
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Ded Ses — Network Engineer &amp; IT Lecturer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
